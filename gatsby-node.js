@@ -26,6 +26,17 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
+        const path = require('path');
+
+        exports.onCreateWebpackConfig = ({ actions }) => {
+          actions.setWebpackConfig({
+            resolve: {
+              alias: {
+                '../../theme.config$': path.join(__dirname, 'src/semantic/theme.config'),
+              },
+            },
+          })
+        }
         const posts = result.data.allContentfulBlogPost.edges
         posts.forEach((post, index) => {
           createPage({

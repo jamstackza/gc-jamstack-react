@@ -16,6 +16,14 @@ if (!spaceId || !accessToken) {
   )
 }
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: { "../../theme.config$": path.join(__dirname,  "src/semantic/theme.config")}
+    }
+  });
+};
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Contentful starter',
@@ -25,6 +33,7 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-less',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-contentful',
@@ -33,8 +42,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-fullstory`,
       options: {
-        fs_org: YOUR_ORG_ID,
+        fs_org: 'N9TST',
       }
     },
+    {
+      resolve: 'gatsby-plugin-mixpanel',
+      options: {
+        apiToken: '9e9fb27c99c475d7e38ece1079a90b42', // required
+      },
+    },
   ],
+
 }
