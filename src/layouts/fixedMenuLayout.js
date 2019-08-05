@@ -1,93 +1,49 @@
 import React from 'react'
-import {
-  Container,
-  Divider,
-  Dropdown,
-  Grid,
-  Header,
-  Image,
-  List,
-  Menu,
-  Segment,
-} from 'semantic-ui-react'
 import base from '../components/base.css'
-import semantic from '../../src/semantic/semantic.css'
-import gc from '../styles/gc.css'
+import '../styles/gc.css'
 
 const FixedMenuLayout = () => (
-  <div>
-    <Menu fixed='top' inverted>
-      <Container>
+  <header>
+    <div className="nav-container">
+      <div className="container">
+        <div id="logo">
+          <a href="https://www.gamingclub.com/" data-gtmid='101:1' data-info='Logo'></a>
+        </div>
 
+        <div id="nav">
+          <nav>
+            <div className="burger-container"><span className="burger" data-gtmid='900:11' data-info='Burger Menu'
+                                                    data-ctx='Menu'></span></div>
+            <ul>
+              <li><a href="https://www.gamingclub.com/" data-gtmid="103:2" data-info="Home" data-ctx="Menu">Home</a>
+              </li>
+              <li><a href="https://www.gamingclub.com/casino-games/" data-gtmid="103:3" data-info="Casino Games"
+                     data-ctx="Menu">Casino Games</a></li>
+              <li><a href="https://www.gamingclub.com/casino-promotions/" data-gtmid="103:4" data-info="Promotions"
+                     data-ctx="Menu">Promotions</a></li>
+              <li><a className="language-nav" data-gtmid="104:5" data-info="Language"
+                     data-ctx="Language Pop">Language</a></li>
+              <li className="nav-support"><a className="live-help-mobile" href="javascript:void(0);"
+                                             onClick="window.open('https://smrouter.com/divert/sitemaxtraffic/GCC/en/','name','width=490,height=600,top=111,left=111,scrollbars=no,resizable=no','replace=true')"><img
+                src="https://gcccdn.com/theme/images/support-icon.png" alt="Support" data-gtmid='901:16'
+                data-info='Support'/></a></li>
+            </ul>
+          </nav>
+        </div>
 
-      </Container>
-    </Menu>
+        <div id="header-buttons">
+          <a className="register_btn buttons" href="javascript:void(0);" data-gtmid='102:8' data-info='Register'
+             data-ctx='Menu'>Register</a>
+          <a className="desktop_login buttons" href="javascript:void(0);" data-gtmid='102:9' data-info='Login'
+             data-ctx='Menu'>Login</a>
+        </div>
+      </div>
 
-    <Container text style={{ marginTop: '7em' }}>
-      <Header as='h1'>Semantic UI React Fixed Template</Header>
-      <p>This is a basic fixed menu template using fixed size containers.</p>
-      <p>
-        A text container is used for the main container, which is useful for single column layouts.
-      </p>
-    </Container>
-
-    <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
-      <Container textAlign='center'>
-        <Grid divided inverted stackable>
-          <Grid.Column width={3}>
-            <Header inverted as='h4' content='Group 1'/>
-            <List link inverted>
-              <List.Item as='a'>Link One</List.Item>
-              <List.Item as='a'>Link Two</List.Item>
-              <List.Item as='a'>Link Three</List.Item>
-              <List.Item as='a'>Link Four</List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header inverted as='h4' content='Group 2'/>
-            <List link inverted>
-              <List.Item as='a'>Link One</List.Item>
-              <List.Item as='a'>Link Two</List.Item>
-              <List.Item as='a'>Link Three</List.Item>
-              <List.Item as='a'>Link Four</List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header inverted as='h4' content='Group 3'/>
-            <List link inverted>
-              <List.Item as='a'>Link One</List.Item>
-              <List.Item as='a'>Link Two</List.Item>
-              <List.Item as='a'>Link Three</List.Item>
-              <List.Item as='a'>Link Four</List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={7}>
-            <Header inverted as='h4' content='Footer Header'/>
-            <p>
-              Extra space for a call to action inside the footer that could help re-engage users.
-            </p>
-          </Grid.Column>
-        </Grid>
-
-        <Divider inverted section/>
-        <Image centered size='mini' src='/logo.png'/>
-        <List horizontal inverted divided link size='small'>
-          <List.Item as='a' href='#'>
-            Site Map
-          </List.Item>
-          <List.Item as='a' href='#'>
-            Contact Us
-          </List.Item>
-          <List.Item as='a' href='#'>
-            Terms and Conditions
-          </List.Item>
-          <List.Item as='a' href='#'>
-            Privacy Policy
-          </List.Item>
-        </List>
-      </Container>
-    </Segment>
-  </div>
+      <a className="live-help" href="javascript:void(0);"
+         onClick="window.open('https://smrouter.com/divert/sitemaxtraffic/GCC/en/','name','width=490,height=600,top=111,left=111,scrollbars=no,resizable=no','replace=true')"
+         data-gtmid='101:10' data-info='Support' data-ctx='Menu'>Support</a>
+    </div>
+  </header>
 )
 
 export default FixedMenuLayout

@@ -200,7 +200,7 @@ header.bg-color {
 }
 
 #logo a {
-  background-image: url(../../static/images/gaming-club-casino-logo.png);
+  background-image: url(../images/gaming-club-casino-logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -236,7 +236,7 @@ nav {
   position: relative;
   z-index: 2;
   cursor: pointer;
-  background-image: url(../../static/images/burger.png);
+  background-image: url(../images/burger.png);
   margin: 10px;
   float: right
 }
@@ -402,7 +402,7 @@ nav ul li a {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-image: url(../../static/images/support-icon.png);
+  background-image: url(../images/support-icon.png);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -410,7 +410,7 @@ nav ul li a {
 }
 
 .live-help:hover {
-  background-image: url(../../static/images/support-icon-hover.png)
+  background-image: url(../images/support-icon-hover.png)
 }
 
 #hero-container {
@@ -423,11 +423,11 @@ nav ul li a {
 }
 
 #hero-container.home {
-  background-image: url(../../static/images/header-mobile.jpg)
+  background-image: url(../images/header-mobile.jpg)
 }
 
 #hero-container.secondary {
-  background-image: url(../../static/images/secondary-header-mobile.jpg);
+  background-image: url(../images/secondary-header-mobile.jpg);
   padding-bottom: 300px
 }
 
@@ -441,7 +441,7 @@ nav ul li a {
 }
 
 #hero-container.is404 {
-  background-image: url(../../static/images/404-mobile.jpg);
+  background-image: url(../images/404-mobile.jpg);
   padding-bottom: 300px
 }
 
@@ -566,7 +566,61 @@ a.back-home {
   margin: 30px 0
 }
 
+.popular {
+  background-image: url(../images/games-area/icon_games_popular.svg)
+}
 
+.popular:hover, .popular.active {
+  background-image: url(../images/games-area/icon_games_popular_hover.svg)
+}
+
+.slots {
+  background-image: url(../images/games-area/icon_games_slots.svg)
+}
+
+.slots:hover, .slots.active {
+  background-image: url(../images/games-area/icon_games_slots_hover.svg)
+}
+
+.blackjack {
+  background-image: url(../images/games-area/icon_games_blackjack.svg)
+}
+
+.blackjack:hover, .blackjack.active {
+  background-image: url(../images/games-area/icon_games_blackjack_hover.svg)
+}
+
+.roulette {
+  background-image: url(../images/games-area/icon_games_roulette.svg)
+}
+
+.roulette:hover, .roulette.active {
+  background-image: url(../images/games-area/icon_games_roulette_hover.svg)
+}
+
+.progressive-slots {
+  background-image: url(../images/games-area/icon_games_jackpots.svg)
+}
+
+.progressive-slots:hover, .progressive-slots.active {
+  background-image: url(../images/games-area/icon_games_jackpots_hover.svg)
+}
+
+html[lang="el"] .progressive-slots {
+  display: none
+}
+
+html[lang="el"] .game-tabs .slick-track div:nth-child(3) {
+  display: none
+}
+
+.video-poker {
+  background-image: url(../images/games-area/icon_games_videop_poker.svg)
+}
+
+.video-poker:hover, .video-poker.active {
+  background-image: url(../images/games-area/icon_games_videop_poker_hover.svg)
+}
 
 .game-tabs .game-filter span {
   color: #fff;
@@ -583,7 +637,7 @@ a.back-home {
 }
 
 .game-area-games {
-  background-image: url(../../static/images/games-carousel-mobile.jpg);
+  background-image: url(../images/games-carousel-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -742,7 +796,7 @@ a.back-home {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-image: url(../../static/images/game-scroll-arrow.png);
+  background-image: url(../images/game-scroll-arrow.png);
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
@@ -772,7 +826,7 @@ a.back-home {
 }
 
 .slick-prev:hover, .slick-next:hover {
-  background-image: url(../../static/images/game-scroll-arrow-hover.png)
+  background-image: url(../images/game-scroll-arrow-hover.png)
 }
 
 slick.slider:before, slick.slider:after {
@@ -802,7 +856,7 @@ slick.slider:after {
   width: 100%;
   height: 100%;
   opacity: .7;
-  background: url(../../static/images/loader.svg) 50% 35% no-repeat transparent
+  background: url(../images/loader.svg) 50% 35% no-repeat transparent
 }
 
 .sidebar-games .loader {
@@ -955,7 +1009,7 @@ body.no-scroll {
 }
 
 .sidebar-games {
-  background-image: url(../../static/images/games-carousel-mobile.jpg);
+  background-image: url(../images/games-carousel-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1100,7 +1154,7 @@ body.no-scroll {
 
 #ticker {
   padding: 50px 0 280px;
-  background-image: url(../../static/images/jacktpot-mobile.jpg);
+  background-image: url(../images/jacktpot-mobile.jpg);
   background-size: cover;
   text-align: center;
   position: relative;
@@ -1109,7 +1163,7 @@ body.no-scroll {
 
 #ticker::after {
   content: "";
-  background-image: url(../../static/images/jackpot-mobile.png);
+  background-image: url(../images/jackpot-mobile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1170,7 +1224,7 @@ body.no-scroll {
 
 #play-at-gaming-club::before {
   content: "";
-  background-image: url(../../static/images/payment-method-purple-dragon.png);
+  background-image: url(../images/payment-method-purple-dragon.png);
   position: absolute;
   top: -80px;
   left: 0;
@@ -1182,7 +1236,7 @@ body.no-scroll {
 
 #play-at-gaming-club::after {
   content: "";
-  background-image: url(../../static/images/payment-method-floating-goblin.png);
+  background-image: url(../images/payment-method-floating-goblin.png);
   position: absolute;
   top: -90px;
   right: 20px;
@@ -1263,7 +1317,7 @@ body.no-scroll {
 
 .trust-icons ul li {
   display: inline-block;
-  background-image: url(../../static/images/trust-icons.png);
+  background-image: url(../images/trust-icons.png);
   background-repeat: no-repeat;
   height: 65px;
   margin: 0 5px
@@ -1275,7 +1329,7 @@ body.no-scroll {
 
 #play-at-gaming-club .banking div {
   display: inline-block;
-  background-image: url(../../static/images/banking-icons.png);
+  background-image: url(../images/banking-icons.png);
   background-repeat: no-repeat;
   height: 65px;
   margin: 0 20px
@@ -1283,7 +1337,7 @@ body.no-scroll {
 
 .footer-trust-icons ul li {
   display: inline-block;
-  background-image: url(../../static/images/footer-icons.png);
+  background-image: url(../images/footer-icons.png);
   background-repeat: no-repeat;
   height: 65px;
   margin: 0 10px
@@ -1416,7 +1470,7 @@ body.no-scroll {
 }
 
 #footer-image {
-  background-image: url(../../static/images/footer-mobile.jpg);
+  background-image: url(../images/footer-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 0;
@@ -1517,7 +1571,7 @@ ul.footer-links li a:hover {
   cursor: pointer;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-image: url(../../static/images/back-to-top.png);
+  background-image: url(../images/back-to-top.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 25px;
@@ -1635,23 +1689,23 @@ ul.footer-links li a:hover {
   }
 
   #hero-container.home {
-    background-image: url(../../static/images/header-tablet.jpg);
+    background-image: url(~static/images/header-tablet.jpg);
     padding-bottom: 500px
   }
 
   #hero-container.secondary {
-    background-image: url(../../static/images/secondary-header-tablet.jpg);
+    background-image: url(../images/secondary-header-tablet.jpg);
     padding-bottom: 450px
   }
 
   #intro {
-    background-image: url(../../static/images/chip-tablet.jpg);
+    background-image: url(../images/chip-tablet.jpg);
     background-repeat: no-repeat;
     background-size: 100%
   }
 
   #hero-container.is404 {
-    background-image: url(../../static/images/404-tablet.jpg);
+    background-image: url(../images/404-tablet.jpg);
     padding-bottom: 450px
   }
 
@@ -1698,7 +1752,7 @@ ul.footer-links li a:hover {
   }
 
   .game-area-games {
-    background-image: url(../../static/images/games-carousel-tablet.jpg);
+    background-image: url(../images/games-carousel-tablet.jpg);
     padding: 60px 0 140px
   }
 
@@ -1739,12 +1793,12 @@ ul.footer-links li a:hover {
 
   #ticker {
     padding: 50px 0 350px;
-    background-image: url(../../static/images/jacktpot-tablet.jpg)
+    background-image: url(../images/jacktpot-tablet.jpg)
   }
 
   #ticker::before {
     content: "";
-    background-image: url(../../static/images/floating-dice.png);
+    background-image: url(../images/floating-dice.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1792,7 +1846,7 @@ ul.footer-links li a:hover {
   }
 
   .sidebar-games {
-    background-image: url(../../static/images/games-carousel-tablet.jpg)
+    background-image: url(../images/games-carousel-tablet.jpg)
   }
 
   .banking-info-container {
@@ -1809,7 +1863,7 @@ ul.footer-links li a:hover {
   }
 
   #footer-image {
-    background-image: url(../../static/images/footer-desktop.jpg)
+    background-image: url(../images/footer-desktop.jpg)
   }
 
   #footer-image img {
@@ -1862,7 +1916,7 @@ ul.footer-links li a:hover {
   }
 
   #hero-container.is404 {
-    background-image: url(../../static/images/404-desktop.jpg);
+    background-image: url(../images/404-desktop.jpg);
     padding-bottom: 550px
   }
 
@@ -2095,12 +2149,12 @@ ul.footer-links li a:hover {
   }
 
   #hero-container.home {
-    background-image: url(../../static/images/header-desktop.jpg);
+    background-image: url(../images/header-desktop.jpg);
     padding-bottom: 810px
   }
 
   #hero-container.secondary {
-    background-image: url(../../static/images/secondary-header-desktop.jpg);
+    background-image: url(../images/secondary-header-desktop.jpg);
     padding-bottom: 600px
   }
 
@@ -2119,7 +2173,7 @@ ul.footer-links li a:hover {
   }
 
   .game-area-games {
-    background-image: url(../../static/images/games-carousel-desktop.jpg);
+    background-image: url(../images/games-carousel-desktop.jpg);
     padding: 90px 0 235px
   }
 
@@ -2257,7 +2311,7 @@ ul.footer-links li a:hover {
 
   .tablet {
     content: "";
-    /* background-image: url(../../static/images/games-tablet.png); */
+    /* background-image: url(../images/games-tablet.png); */
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2271,7 +2325,7 @@ ul.footer-links li a:hover {
 
   .game-area-games .games .slick-slide.slick-current.slick-center::after {
     content: "";
-    /* background-image: url(../../static/images/games-tablet.png); */
+    /* background-image: url(../images/games-tablet.png); */
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -2364,12 +2418,12 @@ ul.footer-links li a:hover {
   }
 
   #intro {
-    background-image: url(../../static/images/chip-desktop.jpg)
+    background-image: url(../images/chip-desktop.jpg)
   }
 
   #intro::before {
     content: "";
-    background-image: url(../../static/images/jackpot-igor.png);
+    background-image: url(../images/jackpot-igor.png);
     position: absolute;
     bottom: 0;
     left: 10px;
@@ -2381,7 +2435,7 @@ ul.footer-links li a:hover {
 
   #ticker {
     padding: 80px 0 80px;
-    background-image: url(../../static/images/jacktpot-desktop.jpg);
+    background-image: url(../images/jacktpot-desktop.jpg);
     margin-bottom: 0
   }
 
@@ -2394,7 +2448,7 @@ ul.footer-links li a:hover {
   }
 
   #ticker::after {
-    background-image: url(../../static/images/jackpot-chef.png);
+    background-image: url(../images/jackpot-chef.png);
     bottom: -90px;
     height: 650px;
     right: 0;
@@ -2444,7 +2498,7 @@ ul.footer-links li a:hover {
   }
 
   .sidebar-games {
-    background-image: url(../../static/images/games-carousel-desktop.jpg)
+    background-image: url(../images/games-carousel-desktop.jpg)
   }
 
   .sidebar-games .casino-games {

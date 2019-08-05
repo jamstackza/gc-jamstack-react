@@ -2,446 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1a5284-659c-4671-8883-c9b233431b68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/advancedGridLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/fixedMenuLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/homeLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/behaviors/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/behaviors/colorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/behaviors/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/behaviors/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/behaviors/visibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/behaviors/visit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/collections/breadcrumb.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/collections/form.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/collections/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/collections/menu.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/collections/message.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/collections/table.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/button.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/container.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/divider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/flag.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/header.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/icon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/image.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/input.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/label.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/loader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/placeholder.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/rail.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/reveal.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/segment.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/elements/step.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/globals/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/globals/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/globals/site.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/accordion.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/checkbox.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/dimmer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/dimmer.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/dropdown.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/embed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/embed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/modal.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/nag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/nag.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/popup.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/progress.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/rating.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/search.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/shape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/shape.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/sidebar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/sticky.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/tab.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/modules/transition.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/views/ad.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/views/card.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/views/comment.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/views/feed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/views/item.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/definitions/views/statistic.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/semantic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/brand-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/brand-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/brand-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/brand-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/brand-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/outline-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/outline-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/outline-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/outline-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/fonts/outline-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/assets/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/breadcrumb.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/breadcrumb.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/form.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/form.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/grid.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/grid.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/menu.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/menu.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/message.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/message.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/table.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/collections/table.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/container.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/container.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/divider.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/divider.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/flag.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/flag.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/icon.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/icon.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/image.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/image.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/input.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/input.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/label.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/label.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/list.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/list.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/loader.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/loader.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/placeholder.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/placeholder.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/rail.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/rail.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/reveal.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/reveal.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/segment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/segment.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/step.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/elements/step.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/globals/reset.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/globals/reset.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/globals/site.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/accordion.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/accordion.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/chatroom.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/chatroom.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/checkbox.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/checkbox.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/dimmer.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/dimmer.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/dropdown.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/dropdown.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/embed.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/embed.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/modal.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/modal.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/nag.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/nag.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/popup.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/popup.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/progress.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/progress.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/rating.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/rating.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/search.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/search.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/shape.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/shape.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/sidebar.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/sidebar.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/sticky.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/sticky.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/tab.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/tab.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/transition.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/transition.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/video.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/modules/video.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/ad.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/ad.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/card.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/card.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/comment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/comment.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/feed.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/feed.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/item.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/item.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/statistic.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/site/views/statistic.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/theme.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/amazon/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/amazon/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/amazon/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/collections/table.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/collections/table.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/elements/icon.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/elements/icon.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/elements/step.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/elements/step.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/globals/reset.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/globals/reset.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/modules/progress.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/modules/progress.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/views/card.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/basic/views/card.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/bookish/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/bookish/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/bootstrap3/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/bootstrap3/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/collections/form.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/collections/form.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/collections/menu.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/collections/menu.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/modules/accordion.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/modules/accordion.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/views/comment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/chubby/views/comment.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/collections/table.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/collections/table.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/modules/progress.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/modules/progress.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/views/card.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/classic/views/card.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/colored/modules/checkbox.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/colored/modules/checkbox.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/assets/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/breadcrumb.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/breadcrumb.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/form.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/form.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/grid.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/grid.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/menu.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/menu.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/message.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/message.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/table.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/collections/table.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/container.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/container.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/divider.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/divider.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/flag.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/flag.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/icon.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/icon.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/image.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/image.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/input.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/input.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/label.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/label.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/list.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/list.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/loader.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/loader.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/placeholder.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/placeholder.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/rail.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/rail.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/reveal.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/reveal.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/segment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/segment.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/step.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/elements/step.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/globals/reset.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/globals/reset.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/globals/site.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/accordion.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/accordion.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/chatroom.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/chatroom.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/checkbox.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/checkbox.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/dimmer.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/dimmer.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/dropdown.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/dropdown.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/embed.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/embed.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/modal.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/modal.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/nag.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/nag.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/popup.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/popup.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/progress.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/progress.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/rating.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/rating.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/search.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/search.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/shape.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/shape.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/sidebar.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/sidebar.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/sticky.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/sticky.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/tab.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/tab.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/transition.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/transition.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/video.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/modules/video.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/ad.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/ad.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/card.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/card.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/comment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/comment.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/feed.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/feed.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/item.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/item.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/statistic.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/default/views/statistic.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/duo/elements/loader.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/duo/elements/loader.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/fixed-width/collections/grid.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/fixed-width/collections/grid.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/fixed-width/modules/modal.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/fixed-width/modules/modal.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/flat/collections/form.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/flat/collections/form.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/flat/globals/site.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/flat/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/assets/fonts/octicons-local.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/assets/fonts/octicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/assets/fonts/octicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/assets/fonts/octicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/breadcrumb.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/form.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/form.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/grid.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/menu.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/menu.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/message.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/message.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/collections/table.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/icon.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/icon.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/image.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/input.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/input.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/label.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/label.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/segment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/segment.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/step.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/elements/step.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/modules/dropdown.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/modules/dropdown.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/github/modules/popup.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/gmail/collections/message.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/gmail/collections/message.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/instagram/views/card.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/instagram/views/card.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/assets/fonts/icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/assets/fonts/icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/collections/menu.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/collections/menu.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/elements/icon.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/elements/icon.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/globals/site.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/modules/dropdown.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/modules/dropdown.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/modules/modal.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/material/modules/modal.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/pulsar/elements/loader.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/pulsar/elements/loader.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/raised/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/raised/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/resetcss/globals/reset.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/resetcss/globals/reset.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/round/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/round/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/rtl/globals/site.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/rtl/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/striped/modules/progress.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/striped/modules/progress.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/timeline/views/feed.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/timeline/views/feed.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/twitter/elements/button.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic/themes/twitter/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/gc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/gc-bak.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tmp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/fixedMenuLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/fixedMenuLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/gc.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/gc.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -454,20 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/test.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/layouts/fixedMenuLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            <state relative-caret-position="858">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/layouts/fixedMenuLayout.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/gc-bak.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="295">
+              <caret line="19" column="1" selection-end-line="2618" />
             </state>
           </provider>
         </entry>
@@ -475,28 +43,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/gc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="66">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/semantic/semantic.css">
+        <entry file="file://$PROJECT_DIR$/static/tmp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168740">
-              <caret line="7670" column="12" selection-start-line="7670" selection-start-column="12" selection-end-line="7670" selection-end-column="12" />
+            <state relative-caret-position="65">
+              <caret line="88" selection-start-line="88" selection-end-line="113" selection-end-column="9" />
               <folding>
-                <element signature="e#131146#132455#2" expanded="true" />
-                <element signature="e#132735#134044#2" expanded="true" />
-                <element signature="e#377240#383083#1" expanded="true" />
-                <element signature="e#383104#386597#1" expanded="true" />
-                <element signature="e#631738#633232#1" expanded="true" />
-                <element signature="e#633253#634906#1" expanded="true" />
-                <element signature="e#649803#651633#1" expanded="true" />
-                <element signature="e#689970#691859#1" expanded="true" />
-                <element signature="e#740998#748532#1" expanded="true" />
-                <element signature="e#748553#756486#1" expanded="true" />
+                <element signature="e#1264#1271#0" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14714#14720#1" expanded="true" />
+                <element signature="e#14907#14913#1" expanded="true" />
+                <element signature="e#15103#15109#1" expanded="true" />
+                <element signature="e#15345#15351#1" expanded="true" />
+                <element signature="e#15593#15599#1" expanded="true" />
+                <element signature="e#15810#15816#1" expanded="true" />
+                <element signature="e#15973#15979#1" expanded="true" />
+                <element signature="e#16148#16154#1" expanded="true" />
+                <element signature="e#17124#17131#0" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+                <element signature="e#19604#19611#0" expanded="true" />
+                <element signature="e#20061#20068#0" expanded="true" />
+                <element signature="e#20463#20470#0" expanded="true" />
+                <element signature="e#21916#21922#0" expanded="true" />
+                <element signature="e#22343#22349#1" expanded="true" />
+                <element signature="e#22520#22526#1" expanded="true" />
+                <element signature="e#22688#22694#1" expanded="true" />
+                <element signature="e#22861#22867#1" expanded="true" />
+                <element signature="e#27696#27702#1" expanded="true" />
+                <element signature="e#27865#27871#1" expanded="true" />
+                <element signature="e#28124#28130#1" expanded="true" />
+                <element signature="e#28337#28343#1" expanded="true" />
+                <element signature="e#28571#28577#1" expanded="true" />
+                <element signature="e#28751#28757#1" expanded="true" />
+                <element signature="e#28943#28949#1" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -516,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layouts/homeLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4994">
+            <state relative-caret-position="397">
               <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -566,7 +156,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>@font</find>
+      <find>support-icon.png</find>
     </findStrings>
+    <replaceStrings>
+      <replace>../../static/images/</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -595,6 +189,7 @@
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/semantic/semantic.css" />
         <option value="$PROJECT_DIR$/src/styles/gc.css" />
+        <option value="$PROJECT_DIR$/static/tmp.html" />
         <option value="$PROJECT_DIR$/src/layouts/fixedMenuLayout.js" />
       </list>
     </option>
@@ -610,11 +205,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1921" />
-    <option name="y" value="-59" />
-    <option name="width" value="1439" />
-    <option name="height" value="1010" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="180" />
+    <option name="y" value="127" />
+    <option name="width" value="1080" />
+    <option name="height" value="628" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -624,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -660,16 +254,11 @@
               <item name="gc-jamstack-react" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gc-jamstack-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gc-jamstack-react" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -766,24 +355,25 @@
       <workItem from="1564869825623" duration="3018000" />
       <workItem from="1564873062756" duration="2620000" />
       <workItem from="1564907196888" duration="2880000" />
+      <workItem from="1564949195482" duration="5942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22289000" />
+    <option name="totallyTimeSpent" value="28231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="-59" width="1439" height="1010" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="836" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22007169" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1661891" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Storybook" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34388646" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34231806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42030567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -953,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/homeLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4994">
-          <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
@@ -991,17 +571,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/gc-bak.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="19" column="1" selection-end-line="2618" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/homeLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/gc.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="66">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/tmp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="88" selection-start-line="88" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <element signature="e#1264#1271#0" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14714#14720#1" expanded="true" />
+            <element signature="e#14907#14913#1" expanded="true" />
+            <element signature="e#15103#15109#1" expanded="true" />
+            <element signature="e#15345#15351#1" expanded="true" />
+            <element signature="e#15593#15599#1" expanded="true" />
+            <element signature="e#15810#15816#1" expanded="true" />
+            <element signature="e#15973#15979#1" expanded="true" />
+            <element signature="e#16148#16154#1" expanded="true" />
+            <element signature="e#17124#17131#0" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+            <element signature="e#19604#19611#0" expanded="true" />
+            <element signature="e#20061#20068#0" expanded="true" />
+            <element signature="e#20463#20470#0" expanded="true" />
+            <element signature="e#21916#21922#0" expanded="true" />
+            <element signature="e#22343#22349#1" expanded="true" />
+            <element signature="e#22520#22526#1" expanded="true" />
+            <element signature="e#22688#22694#1" expanded="true" />
+            <element signature="e#22861#22867#1" expanded="true" />
+            <element signature="e#27696#27702#1" expanded="true" />
+            <element signature="e#27865#27871#1" expanded="true" />
+            <element signature="e#28124#28130#1" expanded="true" />
+            <element signature="e#28337#28343#1" expanded="true" />
+            <element signature="e#28571#28577#1" expanded="true" />
+            <element signature="e#28751#28757#1" expanded="true" />
+            <element signature="e#28943#28949#1" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/fixedMenuLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="858">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
