@@ -20,7 +20,7 @@
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.18",
     "gsap": "^2.1.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "parallax_background": "^1.0.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
