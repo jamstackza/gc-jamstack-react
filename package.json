@@ -19,7 +19,7 @@
     "gatsby-source-contentful": "^2.0.48",
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.18",
-    "gsap": "^2.1.3",
+    "gsap": "^3.6.0",
     "lodash": "^4.17.11",
     "parallax_background": "^1.0.9",
     "react": "^16.8.6",
